@@ -1,0 +1,123 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+html body{
+    height : 100%;
+    width : 100%;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(red,orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    padding: 50px 30px;
+    width: 90%;
+    max-width: 300px;
+    background-color: rgba(47, 79, 79, 0.713);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.time{
+    border: 2px solid black;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+.hr{
+    border: 2px solid black;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(210, 105, 30, 0.515);
+}
+.min{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(210, 105, 30, 0.515);
+}
+.sec{
+    border: 2px solid black;
+    height: 100%;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(210, 105, 30, 0.515);
+}
+p{
+    font-size: 40%;
+    color: rgb(91, 2, 2);
+    font-weight: 900;
+}
+.val{
+    font-size: 55%;
+    color: black;
+    font-weight: 600;
+}
+.btn{
+    border: 2px solid black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: coral;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgba(128, 128, 128, 0.495);
+}
+@media (max-width: 330px) {
+    button{
+        font-size: 5vw;
+    }
+}
+@media (max-width: 280px) {
+    button{
+        font-size: 4vw;
+    }
+}
+@media (max-width: 260px) {
+    button{
+        font-size: 3vw;
+    }
+}
+@media (max-width: 230px) {
+    button{
+        font-size: 2vw;
+    }
+}
